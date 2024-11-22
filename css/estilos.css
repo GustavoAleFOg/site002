@@ -1,0 +1,62 @@
+ header {
+    width: 100%;
+    height: 150px;
+    background-color:  	#BC8F8F;
+    text-align: center;
+    font-family:    Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+
+     
+    position: sticky;
+    top: 0;
+    z-index: 10;
+ }
+
+ body {
+    background-color: #FFDAB9 	;
+   
+ }
+
+ header div ul li{
+    display: inline;/*altera o display do elemento - deixa em linha*/
+	margin:0 20px; /*margem sup e inf de 0 esq e dir de 20px*/
+}
+ 
+ header div ul li a{
+	text-decoration: none; /*tira decoração do texto*/
+	color: #fff;
+	font-size: 25px;
+}  
+
+ul li a:hover{ /*efeito hover que muda o css quando passa  o mouse*/
+	color: #e7310a;
+}
+
+main div h5{
+    text-align: center;
+}
+
+main div p{
+    text-align: center;
+}
+
+
+
+body img {
+    border: solid 5px black;
+    border-radius: 50px;
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	background: #D8BFD8;
+}
+
+.frase{
+	color: #000000;
+	text-align: center;
+	padding-top: 60px;
+
+}
+
